@@ -1,4 +1,4 @@
-## HighlightTextBlock - Highlighting add-on for WPF TextBlock
+## HighlightTextBlock - Text highlighting for WPF TextBlock
 
 ### Quick Start
 #### Installation:
