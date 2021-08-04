@@ -12,14 +12,11 @@
     <PackageProjectUrl>https://github.com/Platonenkov/HighlightTextBlock</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/Platonenkov/HighlightableTextBlock</RepositoryUrl>
-    <PackageTags>wpf highlight textblock text xaml light color</PackageTags>
-    <PackageReleaseNotes>
-      Text highlighting for WPF TextBlock
-    </PackageReleaseNotes>
-    <Description>
-      Text highlighting for WPF TextBlock
-    </Description>
+    <PackageTags>wpf highlight textblock text xaml light color net5</PackageTags>
+    <PackageReleaseNotes>Text highlighting for WPF TextBlock with multiplatform supporting</PackageReleaseNotes>
+    <Description>Text highlighting for WPF TextBlock with multiplatform supporting</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\Resources\icon.png">

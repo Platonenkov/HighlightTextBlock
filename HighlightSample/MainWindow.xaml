@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
-        xmlns:controls="clr-namespace:HighlightTextBlock;assembly=HighlightTextBlock"
+        xmlns:hltb="clr-namespace:HighlightTextBlock;assembly=HighlightTextBlock"
         mc:Ignorable="d"
         Title="MainWindow" Height="360" Width="525" Foreground="#f6f6f6" FontSize="16" Background="#444">
     <Window.Resources>
@@ -28,13 +28,13 @@
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Search"/>
         <TextBlock Grid.Row="2" Grid.Column="0" Text="Output"/>
         <ScrollViewer Grid.Row="0" Grid.Column="1">
-            <TextBox x:Name="full" Text="{Binding Path=FullText, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" 
-                     Foreground="#f6f6f6" Background="#444"/>
+            <TextBox Text="{Binding Path=FullText, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" 
+                     Foreground="#f6f6f6" Background="#444" MinHeight="100"/>
         </ScrollViewer>
-        <TextBox Grid.Row="1" Grid.Column="1" x:Name="filter" Text="{Binding Filter, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"/>
-        <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding Path=Text, ElementName=full}" TextWrapping="Wrap"
-                   controls:HighlightTextBlock.HightlightText="{Binding Filter}" controls:HighlightTextBlock.Italic="True"
-                   controls:HighlightTextBlock.HighlightBrush="Yellow" controls:HighlightTextBlock.HighlightTextBrush="Red"
-                   controls:HighlightTextBlock.Bold="True"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding FindString, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding Path=FullText}" TextWrapping="Wrap"
+                   hltb:HighlightTextBlock.HightlightText="{Binding FindString}" hltb:HighlightTextBlock.Italic="True"
+                   hltb:HighlightTextBlock.HighlightBrush="Yellow" hltb:HighlightTextBlock.HighlightTextBrush="Red"
+                   hltb:HighlightTextBlock.Bold="True"/>
     </Grid>
 </Window>
