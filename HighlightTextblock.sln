@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighlightSample", "HighlightSample\HighlightSample.csproj", "{648794A4-8575-449F-A10A-AF03DE83019A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighlightTextBlock", "HighlightTextBlock\HighlightTextBlock.csproj", "{19649C12-DCE4-420F-A508-FDA52CA86C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648794A4-8575-449F-A10A-AF03DE83019A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648794A4-8575-449F-A10A-AF03DE83019A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648794A4-8575-449F-A10A-AF03DE83019A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648794A4-8575-449F-A10A-AF03DE83019A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19649C12-DCE4-420F-A508-FDA52CA86C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19649C12-DCE4-420F-A508-FDA52CA86C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19649C12-DCE4-420F-A508-FDA52CA86C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19649C12-DCE4-420F-A508-FDA52CA86C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B523D06-3526-4B89-A77F-720590C5585E}
+	EndGlobalSection
+EndGlobal
