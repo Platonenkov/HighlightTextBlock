@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0-windows;netcoreapp3.1-windows;net4.0-windows</TargetFrameworks>
+    <TargetFrameworks>net6-windows;net5-windows;netcoreapp3.1-windows;net4</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.0</Version>
+    <Version>6.0.0</Version>
     <Copyright>https://github.com/Platonenkov</Copyright>
     <Authors>Platonenkov</Authors>
     <Trademark>Platonenkov</Trademark>
@@ -13,7 +13,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/Platonenkov/HighlightTextBlock</RepositoryUrl>
     <PackageTags>wpf highlight textblock text xaml light color net5</PackageTags>
-    <PackageReleaseNotes>Text highlighting for WPF TextBlock with multiplatform supporting</PackageReleaseNotes>
+    <PackageReleaseNotes>Add net 6 support</PackageReleaseNotes>
     <Description>Text highlighting for WPF TextBlock with multiplatform supporting</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>GitHub</RepositoryType>
